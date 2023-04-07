@@ -1,0 +1,16 @@
+<?php
+    $type=env('APP_TYPE');
+    if($type=='testing'){
+        return[
+            'url'=>'https://uat.esewa.com.np/epay/main',
+            'scd'=>'EPAYTEST',
+            'transrec'=>'https://uat.esewa.com.np/epay/transrec'
+        ];
+    }else{
+        return[
+            'url'=>'https://esewa.com.np/epay/main',
+            'scd'=>'',
+            'transrec'=>'https://esewa.com.np/epay/transrec'
+        ];
+    }
+?>

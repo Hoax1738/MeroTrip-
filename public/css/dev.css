@@ -1,0 +1,23 @@
+.popover {
+    background: none;
+    border: none;
+    top:76px;
+}
+.popover > .arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    transform: rotate(-135deg);
+    height:1rem;
+    width:1rem;
+    -webkit-transform: rotate(-135deg);
+    margin:0 auto;
+    background: white;
+    margin-top: 0.5rem;
+    position: relative;
+}
+.popover > .card{
+    margin:0;
+    margin-top: -0.5rem;
+    border:none;
+}
